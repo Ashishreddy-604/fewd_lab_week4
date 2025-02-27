@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.skill {
+    text-align: left;
+    font-size: 16px;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.skill-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+/* Skill Levels */
+.python { width: 90%; background-color: #4CAF50; }
+.java { width: 85%; background-color: #007BFF; }
+.html { width: 95%; background-color: #E44D26; }
+.js { width: 80%; background-color: #F7DF1E; }
+.ml { width: 75%; background-color: #FF9800; }
+.dl { width: 70%; background-color: #673AB7; }
+.mysql { width: 85%; background-color: #009688; }
+.git { width: 90%; background-color: #F1502F; }
